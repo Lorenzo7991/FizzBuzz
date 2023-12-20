@@ -25,6 +25,9 @@ for (let i = 1; i <= 100; i++) {
  */
 const rowElement = document.querySelector('.row');
 
+const buttonElement = document.querySelector(".btn-create").addEventListener('click', function() {
+rowElement.innerHTML = ""; 
+
 for (let i = 1; i <= 100; i++) {
     let squareResult = "";
     let bgColor = "";
@@ -51,3 +54,8 @@ for (let i = 1; i <= 100; i++) {
         </div>
     `;
 }
+});
+
+const buttonClrElement = document.querySelector(".btn-clear").addEventListener('click', function() {
+    rowElement.innerHTML = ""; 
+});
