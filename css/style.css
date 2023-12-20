@@ -19,10 +19,9 @@ body{
     background-color: rgb(8, 59, 76);
 }
 .grid{
-    max-width: 600px;
-    min-height: 500px;
+    max-width: 500px;
     margin: 0 auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .square{
     height: 70px;
@@ -30,9 +29,9 @@ body{
 }
 
 .row{
-    border: 2px dotted greenyellow;
+   /*  border: 2px dotted greenyellow; */
 }
 
 [class^="col"] {
-    border: 1px dotted yellow;
+   /*  border: 1px dotted yellow; */
 }
