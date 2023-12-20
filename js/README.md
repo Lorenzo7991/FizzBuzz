@@ -9,20 +9,17 @@
 - **SE SI:**
     - Stampare in console la stringa "FizzBuzz".
 
+- **ALTRIMENTI SE:**
+
+    - Verificare se la "i" ha assunto un valore multiplo di 3. Nel caso, stampare in console la stringa "Fizz".
+    
+- **ALTRIMENTI SE:**
+    
+     - Verificare se la "i" ha assunto un  valore multiplo di 5. Nel caso, stampare in console la stringa "Buzz".
+    
 - **ALTRIMENTI:**
-
-    - Verificare se la "i" ha assunto un valore multiplo di 3.
-
-        - **SE SI:**
-            - stampare in console la stringa "Fizz".
-    
-    - **ALTRIMENTI:**
-        - Verificare se la "i" ha assunto un  valore multiplo di 5.
-            - **SE SI:**
-                - Stampare in console la stringa "Buzz".
-    
-    - **ALTRIMENTI:**
-        - Stampare in console il valore di "i".
+        
+    - Stampare in console il valore di "i".
 
 
 ### DOM OUTPUT SECTION:
