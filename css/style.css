@@ -1,4 +1,39 @@
-/* ^ DOM - CSS Test response */
+/* ^ COLORS UTILITIES */
+.bg-blue{
+    background-color: rgb(19, 137, 178);
+}
+
+.bg-green{
+    background-color: rgb(11, 214, 161);
+}
+
+.bg-yellow{
+    background-color: rgb(255, 209, 102);
+}
+
+.bg-red{
+    background-color: rgb(240, 70, 111);
+}
+/* ^ UTILITIES */
 body{
-    background-color: yellow;
+    background-color: rgb(8, 59, 76);
+}
+.grid{
+    max-width: 600px;
+    min-height: 500px;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+.square{
+    height: 60px;
+    width: 60px;
+    background-color: aqua;
+}
+
+.row{
+    border: 2px dotted greenyellow;
+}
+
+[class^="col"] {
+    border: 1px dotted yellow;
 }
