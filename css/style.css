@@ -25,9 +25,8 @@ body{
     border: 2px solid blue;
 }
 .square{
-    height: 60px;
-    width: 60px;
-    background-color: aqua;
+    height: 70px;
+    width: 70px;
 }
 
 .row{
